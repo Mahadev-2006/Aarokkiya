@@ -1,0 +1,15 @@
+# --- Core Frameworks ---
+crewai>=1.10.1          # Multi-agent orchestration
+crewai-tools>=1.10.1    # Built-in tools for agents
+streamlit>=1.30.0       # The Web UI for Aarokkiya
+langchain-ollama        # To connect CrewAI to your local Llama 3.2
+
+# --- On-The-Fly API Connectors ---
+requests                # To fetch data from RxNorm, NIH, and OpenFDA
+geopy                   # To calculate distances for the Hospital Locator
+folium                  # To display the OpenStreetMap inside Streamlit
+streamlit-folium        # Integration for Folium and Streamlit
+
+# --- Utilities ---
+python-dotenv           # To keep your API keys safe in a .env file
+pydantic>=2.0.0         # For structured data validation
